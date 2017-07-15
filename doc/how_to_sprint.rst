@@ -120,7 +120,10 @@ The typical workflow
 
         git clone https://github.com/<USER NAME>/sprint_tutorial
 
-  #. Build the project into your dev environment. Run the test suite.
+  #. Build the project into your dev environment. Run the test suite::
+
+	python setup.py develop
+	nosetests spring_tutorial
 
   #. Branch off to a new branch for your work item::
 
